@@ -1,0 +1,877 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clr {
+    clear: both;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: 1rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* header */
+.header {
+    position: fixed;
+    height: 11vh;
+    width: 100%;
+    box-shadow: #7E7F80 0 0 5px 5px;
+    background-color: black;
+}
+
+.container {
+    height: 80px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+
+.container a {
+    font-size: 1.2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container>a {
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+
+.links a:hover {
+    border-bottom: 2px solid #fff;
+    color: #42b5f2;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80vh;
+    width: 300px;
+    z-index: 999;
+    background-color: #00000047;
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.sidebar a {
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-button {
+    display: none;
+}
+
+.container p {
+    font-size: 1.2rem;
+}
+
+.container .toggle_btn {
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+/* / header */
+
+.container2 {
+    background-image: url(./img/hero_image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.img {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 20rem;
+    text-align: center;
+    color: #fff;
+}
+
+.img h1 {
+    font-size: 60px;
+    line-height: 10vh;
+}
+
+.img h2 {
+    line-height: 10vh;
+}
+
+.img p {
+    line-height: 3vh;
+}
+
+.container3 {
+    height: 80vh;
+    background-color: #08192D;
+}
+
+.music {
+    width: 80vw;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+}
+
+.music img {
+    margin-top: 3.7rem;
+}
+
+.music h1 {
+    padding: 1.8rem;
+}
+
+.music h4 {
+    line-height: 3vh;
+}
+
+.btn {
+    padding: 0.9rem;
+    background-color: #DC0000;
+    border: none;
+    margin: 1.55rem;
+    cursor: pointer;
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container4 {
+    background-color: #fdfcfc;
+}
+
+.labtop {
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25rem;
+}
+
+.labtop h3 {
+    padding: 1.8rem;
+}
+
+.labtop p {
+    line-height: 3vh;
+    padding-bottom: 4.3rem;
+}
+
+.labtop img {
+    margin: 3.1rem auto;
+}
+
+.btn1 {
+    padding: 0.9rem;
+    background-color: #270082;
+    margin: 0 auto;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+
+.btn1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container5 {
+    background-color: #F5F7F9;
+    height: 110vh;
+}
+
+.ques {
+    width: 80vw;
+    margin: 1.2rem auto;
+    padding-top: 3.7rem;
+}
+
+.left {
+    float: left;
+    width: 35vw;
+}
+
+.right h1 {
+    font-size: 2rem;
+    padding: 2.2rem 0;
+}
+
+.right {
+    float: right;
+    width: 37vw;
+    padding: 1rem 0 0 5rem;
+}
+
+.ques1 {
+    background-color: #fff;
+    margin: 0.9rem 0;
+    height: 9.3rem;
+}
+
+.ques1 img {
+    float: left;
+    margin: 1.8rem 1.2rem;
+}
+
+.ques1 p {
+    float: inherit;
+    padding-top: 2.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.container6 {
+    background-image: url(./img/video.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.concert {
+    color: #fff;
+    text-align: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.concert>h3 {
+    padding: 2.5rem 0 1.8rem 0;
+}
+
+.concert p {
+    line-height: 3vh;
+}
+
+.concert h1 {
+    padding: 5.6rem;
+    font-size: 2.5rem;
+}
+
+.artist {
+    float: left;
+    width: 25%;
+    padding: 0.2rem;
+    box-sizing: border-box;
+}
+
+.artist img {
+    border: none;
+    border-radius: 10px;
+}
+
+.container7 {
+    background-color: #F5F7F9;
+}
+
+.seyl {
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F5F7F9;
+}
+
+.seyl h1 {
+    width: 35vw;
+    margin: 0 auto;
+    line-height: 8vh;
+    font-size: 2.6rem;
+    padding: 3rem 0;
+}
+
+.free {
+    width: 21vw;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 1.5rem;
+    display: inline-block;
+    padding: 2.5rem;
+    text-align: left;
+}
+
+.free:hover {
+    background-color: #000;
+
+}
+
+.free:hover h2 {
+    color: #fff;
+}
+
+.free:hover ul li {
+    color: #fff;
+}
+
+.free:hover .btn2 {
+    border: 1px solid #4294F2;
+    background-color: #000;
+    box-sizing: border-box;
+}
+
+.free h2 {
+    padding: 0.2rem 0;
+}
+
+.free p {
+    color: #4294F2;
+}
+
+.free span {
+    font-size: 1.5rem;
+}
+
+.border {
+    width: 100%;
+    border: 1px solid grey;
+    margin: 0.5rem 0;
+}
+
+.free ul li {
+    list-style: none;
+    padding: 0.7rem 0;
+}
+
+.btn2 {
+    padding: 0.9rem 5.3rem;
+    background-image: linear-gradient(to right, #ca42f2 0%, #6a42f2 39%, #4294f2 75%, #42b5f2 100%, #7db9e8 100%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.btn3 {
+    padding: 0.9rem 5.1rem;
+    background-image: linear-gradient(to right, #ca42f2 0%, #6a42f2 39%, #4294f2 75%, #42b5f2 100%, #7db9e8 100%);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.btn3 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.container8 {
+    height: 22rem;
+}
+
+.card {
+    width: 80vw;
+    margin: 2rem auto;
+}
+
+.left1 {
+    float: left;
+    width: 35vw;
+}
+
+.right1 {
+    float: right;
+    width: 45vw;
+}
+
+.right1 h2 {
+    padding: 1rem 0;
+}
+
+.right1 p {
+    line-height: 3vh;
+    padding: 1rem 0;
+}
+
+.btn4 {
+    padding: 0.7rem 2rem;
+    border: none;
+    background-color: #270082;
+    cursor: pointer;
+}
+
+.btn4 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+
+}
+
+footer {
+    background-color: #08192D;
+    height: 27vh;
+}
+
+.about {
+    color: #fff;
+    display: inline-block;
+    width: 12vw;
+    padding: 1rem;
+    margin: 0.7rem 5rem;
+}
+
+.about h4 {
+    padding: 0.7rem 0;
+}
+
+.about ul li {
+    list-style: none;
+}
+
+.border1 {
+    width: 10vw;
+    border: 1px solid #fff;
+    margin-bottom: 0.5rem;
+}
+
+.container9 {
+    width: 100%;
+    height: 4rem;
+    background-color: #05274E;
+    text-align: center;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+
+.fixed {
+    padding: 1rem;
+    position: fixed;
+    background-color: #08192D;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    right: 4rem;
+    bottom: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    .menu-button {
+        display: block;
+    }
+
+    .hideOnMobile {
+        display: none;
+    }
+
+    .container2 {
+        height: 80vh;
+    }
+
+    .music img {
+        height: 60vh;
+    }
+
+    .labtop {
+        margin-top: 15rem;
+    }
+
+    .labtop img {
+        height: 60vh;
+    }
+
+    .img h1 {
+        font-size: 5rem;
+        line-height: 10vh;
+    }
+
+    .img h2 {
+        line-height: 7vh;
+    }
+
+    .img p {
+        line-height: 3vh;
+    }
+
+    .container5 {
+        height: 75vh;
+    }
+
+    .left {
+        width: 37vw;
+    }
+
+    .right h1 {
+        font-size: 2rem;
+        padding: 0;
+    }
+
+    .right {
+        width: 38vw;
+        padding: 0;
+    }
+
+    .ques1 {
+        height: 7.5rem;
+    }
+
+    .ques1 img {
+        margin: 1rem;
+    }
+
+    .ques1 p {
+        padding-top: 1.2rem;
+    }
+
+    .left img {
+        height: 60vh;
+    }
+
+    .container6 {
+        height: 80vh;
+    }
+
+    .artist img {
+        height: 21vh;
+    }
+
+    .seyl {
+        width: 80vw;
+    }
+
+    .seyl h1 {
+        width: 50vw;
+    }
+
+    .left1 img {
+        height: 28vh;
+    }
+
+    .free {
+        width: 33vw;
+        margin: 2rem 1rem 1rem 1rem;
+    }
+
+    .btn2 {
+        padding: 0.9rem 4.7rem;
+    }
+
+    .btn3 {
+        padding: 0.9rem 4.3rem;
+    }
+
+    footer {
+        height: 38vh;
+    }
+
+    .about {
+        width: 35vw;
+        padding: 0;
+        margin: 0.5rem 3.5rem;
+    }
+
+    .about h4 {
+        padding: 0.5rem 0;
+    }
+
+    .about ul li {
+        list-style: none;
+    }
+
+    .border1 {
+        width: 25vw;
+    }
+
+    .container9 {
+        height: 1.5rem;
+    }
+
+    .fixed {
+        padding: 1rem;
+        position: fixed;
+        background-color: #08192D;
+        color: #fff;
+        border: none;
+        border-radius: 50%;
+        right: 10%;
+        bottom: 2%;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container2 {
+        background-image: url(./img/hero_image.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+    }
+
+    .img {
+        padding-top: 15rem;
+    }
+
+    .img h1 {
+        font-size: 60px;
+        line-height: 10vh;
+    }
+
+    .img h2 {
+        line-height: 10vh;
+    }
+
+    .img p {
+        line-height: 3vh;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .music img {
+        height: 30vh;
+    }
+
+    .labtop {
+        width: 80vw;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 10rem;
+    }
+
+    .labtop img {
+        height: 27vh;
+        margin: 2rem auto;
+    }
+
+    .container3 {
+        height: 60vh;
+        background-color: #08192D;
+    }
+
+    .music {
+        width: 80vw;
+        margin: 0 auto;
+        color: #fff;
+        text-align: center;
+    }
+
+    .container5 {
+        background-color: #F5F7F9;
+        height: 55vh;
+    }
+
+    .ques {
+        width: 80vw;
+        margin: 1.2rem auto;
+        padding-top: 3.7rem;
+    }
+
+    .left {
+        float: left;
+        width: 35vw;
+    }
+
+    .left img {
+        height: 30vh;
+    }
+
+    .right {
+        float: right;
+        width: 40vw;
+        padding: 0.5rem;
+    }
+
+    .right h1 {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .ques1 {
+        background-color: #fff;
+        margin: 0.5rem 0;
+        height: 4.5rem;
+    }
+
+    .ques1 img {
+        float: left;
+        height: 3rem;
+        margin: 0.7rem;
+    }
+
+    .ques1 p {
+        padding-top: 1rem;
+        font-size: 0.6rem;
+    }
+
+    .container6 {
+        height: 70vh;
+    }
+
+    .concert>h3 {
+        padding: 2.5rem 0 1.8rem 0;
+    }
+
+    .concert p {
+        line-height: 3vh;
+    }
+
+    .concert h1 {
+        padding: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .artist img {
+        border: none;
+        border-radius: 10px;
+    }
+
+    .artist img {
+        height: 13vh;
+    }
+
+    .seyl {
+        width: 80vw;
+    }
+
+    .seyl h1 {
+        line-height: 4vh;
+        width: 65vw;
+        text-align: center;
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+
+    .free {
+        width: 50vw;
+    }
+
+
+    .free h2 {
+        padding: 0.2rem 0;
+    }
+
+    .free p {
+        color: #4294F2;
+    }
+
+    .free span {
+        font-size: 1.5rem;
+    }
+
+    .border {
+        width: 100%;
+        border: 1px solid grey;
+        margin: 0.5rem 0;
+    }
+
+    .free ul li {
+        list-style: none;
+        padding: 0.7rem 0;
+    }
+
+    .btn2 {
+        padding: 0.9rem 4.8rem;
+    }
+
+    .btn2 a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .btn3 {
+        padding: 0.9rem 4.4rem;
+    }
+
+    .btn3 a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .left1 img {
+        height: 17vh;
+    }
+
+    .right1 {
+        float: right;
+        width: 45vw;
+    }
+
+    .right1 h2 {
+        padding: 0 0 0.5rem 0;
+    }
+
+    .right1 p {
+        line-height: 3vh;
+        padding: 0.1rem 0;
+    }
+
+    footer {
+        height: 38vh;
+    }
+
+    .about {
+        width: 30vw;
+        padding: 0;
+        margin: 0.5rem 3.5rem;
+    }
+
+    .about h4 {
+        padding: 0.5rem 0;
+    }
+
+    .about ul li {
+        list-style: none;
+    }
+
+    .border1 {
+        width: 25vw;
+    }
+
+    .container9 {
+        height: 1.5rem;
+    }
+
+    .fixed {
+        right: 2rem;
+        bottom: 1rem;
+    }
+}
+
+@media (max-width:320px) {
+    .sidebar {
+        width: 100%;
+    }
+}
